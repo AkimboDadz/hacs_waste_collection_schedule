@@ -31,7 +31,6 @@ WASTE_CATEGORY_MAP: dict[str, WasteInfo] = {
     "HM": WasteInfo("Hausmüll", "mdi:trash-can"),
     "LT": WasteInfo("Laubtonne", "mdi:leaf"),
     "WS": WasteInfo("Wertstoffe", "mdi:recycle"),
-    "WB": WasteInfo("Weihnachtsbaum", "mdi:pine-tree"),
 }
 
 

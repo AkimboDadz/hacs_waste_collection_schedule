@@ -188,14 +188,22 @@ EXTRA_INFO: list[E_I_TYPE] = [
             "district": "schwechat",
         },
     },
-    # { No ICAL or API available anymore
-    #     "title": "GVA Tulln",
-    #     "url": "https://tulln.umweltverbaende.at/",
-    #     "country": "at",
-    #     "default_params": {
-    #         "district": "tulln",
-    #     },
-    # },
+    {
+        "title": "GVA Tulln",
+        "url": "https://tulln.umweltverbaende.at/",
+        "country": "at",
+        "default_params": {
+            "district": "tulln",
+        },
+    },
+    {
+        "title": "AWV Wr. Neustadt",
+        "url": "https://wrneustadt.umweltverbaende.at/",
+        "country": "at",
+        "default_params": {
+            "district": "wrneustadt",
+        },
+    },
     {
         "title": "GVA Waidhofen/Thaya",
         "url": "https://waidhofen.umweltverbaende.at/",
@@ -347,6 +355,7 @@ TEST_CASES = {
     #    "district": "tulln",
     #    "municipal": "Absdorf",
     # },  # No ICAL or API available anymore
+    # "Wiener Neustadt": {"district": "wrneustadt", "municipal": "?"}, # old version (as of 29.12.2024) # schedules use www.umweltverbaende.at/verband/vb_wn_sms.asp
     "Waidhofen/Thaya": {"district": "waidhofen", "municipal": "Kautzen"},
     "Zwettl": {
         "district": "zwettl",
